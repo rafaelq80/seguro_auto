@@ -7,8 +7,8 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-  .setTitle('Projeto RH')
-  .setDescription('Projeto RH')
+  .setTitle('Projeto Gerenciador de Seguros - Automóveis')
+  .setDescription('Projeto Gerenciador de Seguros')
   .setContact("Generation Brasil","https://brazil.generation.org","generation@email.com")
   .setVersion('1.0')
   .addBearerAuth()
